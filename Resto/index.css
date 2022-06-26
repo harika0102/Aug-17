@@ -1,0 +1,46 @@
+.image1 {
+   background-image: url("./iamge8.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 1100px;
+   position: relative;
+   animation-name: homepage;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes homepage {
+    0% {background-image: url(./iamge8.jpg);}
+    25% {background-image: url(./image3.jpg);}
+    50% {background-image: url(./image5.jpg);}
+    100% {background-image: url(./image4.jpeg);}
+}
+
+.content {
+    background-color: transparent;
+    color: #ae2012;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+section {
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 120px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 35mm;
+    color: #78290f;
+    margin-top: 10px;
+    text-shadow: 5px 5px 7px white;
+}
+

@@ -1,0 +1,44 @@
+body {
+    background-image: url(./Menu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    background-color: transparent;
+    color: #c68f8a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+    margin-left: 170px;
+}
+
+.tmenu {
+
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 0;
+
+    
+}
+
+.items {
+    text-align: justify;
+}
+
+.tstarters {
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+}
+    
+
