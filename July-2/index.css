@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: 48px;
+}
+
+table {
+    align-items: center;
+}
+td {
+    padding: 20px;
+}
+
+.button1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    border: transparent;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+
