@@ -1,0 +1,43 @@
+body h1 {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+
+body h1:nth-child(2) {
+    color: black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    
+}
+
+table, th, td {
+    padding: 15px 15px;
+    text-align: center;
+}
+
+table thead {
+    color: brown;
+}
+
+
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(229, 211, 177);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(236, 188, 100);
+}
+
+
+
+tbody td:nth-child(n+6) {
+    background-color: red;
+
+}
